@@ -1,0 +1,23 @@
+
+#blog{
+    width: 50%;
+}
+
+.blog-title{
+    margin-bottom: 2px;
+}
+
+.author{
+    margin-bottom: 4px;
+}
+
+.info-table {
+    text-align: left;
+}
+
+.img-container{
+    height: 80px;
+    width: 80px;
+    float: left;
+    margin-right: 5px;
+}
