@@ -1,12 +1,14 @@
 import React from 'react'
 import './style.css'
+import GarlicImg from './garlic.jpg'
+import PenneImg from './penne.jpeg'
 
 const Blogs = () => {
     return (
         <div id='blog'>
-            <article class="blog-post">
-                <h3 class="blog-title">What's for lunch? I don't know</h3>
-                <address class="author"> <a rel="author" href="http://mitchschul.com">Mitchell Schuldinger</a></address>
+            <article className="blog-post">
+                <h3 className="blog-title">What's for lunch? I don't know</h3>
+                <address className="author"> <a rel="author" href="http://mitchschul.com">Mitchell Schuldinger</a></address>
                 <time datetime="2022-10-16" title="October 16, 2022">October 16, 2022</time>
 
                 <p>
@@ -42,14 +44,17 @@ const Blogs = () => {
                 </p>
 
                 <p>
-                    <img src="penne.jpeg" alt="Bulbs of garlic" class="img-container" />
+                    <img src={PenneImg} alt="Penna pasta" className="img-container" />
+
                     We'll call this dish, with the help of Duolingo,
                     <em>Penne alla vodka con carne</em>
                     This was actually way better than expected, I give this one a
                     rating of 7/10.
-
                 </p>
-                <table class="info-table">
+                <p>
+                    This is not the actual dish I made. Thank Google for this one.
+                </p>
+                <table className="info-table">
                     <tr>
                         <th>Ingredients</th>
                         <th>Amount</th>
@@ -81,18 +86,16 @@ const Blogs = () => {
                         <td>5 minutes</td>
                     </tr>
                 </table>
-                <p>
-                    This is not the actual dish I made. Thank Google for this one.
-                </p>
+
 
                 <p>
                     Time to clean up.
                 </p>
             </article>
 
-            <article class="blog-post">
-                <h3 class="blog-title">Dinner for tonight</h3>
-                <address class="author"> <a rel="author" href="http://mitchschul.com">Mitchell Schuldinger</a></address>
+            <article className="blog-post">
+                <h3 className="blog-title">Dinner for tonight</h3>
+                <address className="author"> <a rel="author" href="http://mitchschul.com">Mitchell Schuldinger</a></address>
                 <time datetime="2022-10-15" title="October 15, 2022">Ocober 15, 2022</time>
 
                 <p>
@@ -130,7 +133,7 @@ const Blogs = () => {
                     and added the chicken strips and some grated parmesan cheese.
                 </p>
                 <p>
-                    <img src="./garlic.jpg" alt="Bulbs of garlic" class="img-container" />
+                    <img src={GarlicImg} alt="Bulbs of garlic" className="img-container" />
                     And there you have it, <em>Arrabiata pasta with crispy chicken,</em>
                     was the meal for this evening. This was a real simple dish, I'll
                     rate it a solid 6/10.

@@ -1,6 +1,28 @@
+h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+p {
+    line-height: 1.4em;
+    width: 400px;
+}
+
+article{
+    border-bottom: 1px dotted #ccc;
+}
+
+time {
+    color: rgb(121, 121, 121);
+}
 
 #blog{
     width: 50%;
+    margin: 0 30px;
 }
 
 .blog-title{

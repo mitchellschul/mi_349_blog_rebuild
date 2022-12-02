@@ -3,12 +3,12 @@ import './style.css';
 
 const Nav = () => {
     return (
-        <nav class="nav">
-            <div class="nav_title">Mitchell Schuldinger</div>
-            <ul class="nav_list">
-                <li class="nav_item">Home</li>
-                <li class="nav_item">About</li>
-                <li class="nav_item">Contact</li>
+        <nav className="nav">
+            <div className="nav_title">Mitchell Schuldinger</div>
+            <ul className="nav_list">
+                <li className="nav_item"><a href="./" className="nav_link">Home</a></li>
+                <li className="nav_item"><a href="./" className="nav_link">About</a></li>
+                <li className="nav_item"><a href="./" className="nav_link">Contact</a></li>
             </ul>
         </nav>
 

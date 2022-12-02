@@ -5,14 +5,24 @@
 	align-items: center;
 	height: 60px;
 	top: 0;
-    background: #42A5F5;
+    background: #5c78eb;
 }
 
 .nav_title {
     margin: 0px 30px;
+	color: #eee
 }
 
 .nav_item {
     display: inline-block;
     margin: 0px 30px;
+}
+
+.nav_link{
+	color: #eee;
+	text-decoration: none;
+}
+
+.nav_link:hover{
+	color: rgb(180, 180, 180);
 }
